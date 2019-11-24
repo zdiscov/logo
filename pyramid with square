@@ -1,0 +1,37 @@
+to rtsquare
+repeat 4[fd 20 rt 90]
+end
+
+to ltsquare
+repeat 4[fd 20 lt 90]
+end
+
+to base7
+repeat 7[ square rt 90 fd 20 lt 90]
+pu fd 20 lt 90 fd 10 rt 90 pd
+end
+
+to left1
+repeat 5[ltsquare pu fd 20 lt 90 fd 10 rt 90 pd] 
+end
+
+to right1
+repeat 5[rtsquare pu fd 20 rt 90 fd 10 lt 90 pd]
+end
+
+to main
+base7
+left1
+pu bk 100 lt 90 fd 70 rt 90 pd
+right1
+square 
+pu bk 350 rt 90 fd 100 rt 90 pd
+base7
+pu bk 20 rt 90 rt 90 pd
+right1
+pu bk 100 rt 90 fd 70 lt 90 pd
+left1
+ltsquare
+end
+
+// cs pd main
