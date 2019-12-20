@@ -1,0 +1,6 @@
+TO BFLY_ANTENNA
+	repeat 10[fd 5 lt 2]
+	repeat 10[rt 2 bk 5]
+	repeat 10[fd 5 rt 2]
+	repeat 10[lt 2 bk 5]
+END

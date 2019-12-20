@@ -1,0 +1,10 @@
+TO BFLY_BODY
+	repeat 22[fd 5 rt 10]
+	lt 135
+	repeat 22[fd 5 rt 10]
+	lt 135
+	repeat 22[fd 5 rt 10]
+	lt 135
+	repeat 22[fd 5 rt 10]
+	lt 135
+END

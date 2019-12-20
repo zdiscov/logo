@@ -1,0 +1,21 @@
+TO PETALS :siz
+	lt 135
+	repeat 18[ fd :siz rt 10]
+	lt 135
+	repeat 18[ fd :siz rt 10]
+	lt 135
+	repeat 18[fd :siz rt 10]
+	lt 135
+	repeat 18[fd :siz rt 10]
+	lt 135
+	repeat 18[ fd :siz rt 10]
+	lt 135
+	repeat 18[ fd :siz rt 10]
+	lt 135
+	repeat 18[fd :siz rt 10]
+	lt 135
+	repeat 18[fd :siz rt 10]
+	
+	
+
+END

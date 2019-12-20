@@ -1,0 +1,10 @@
+TO RTSTEM
+	repeat 20[fd 10 rt  2]
+	repeat 20[lt 2 bk 10]
+	rt 90
+	fd 4
+	lt 90
+	repeat 20[fd 10 rt 2]
+	repeat 20[lt 2 bk 10]
+	repeat 20[fd 10 rt 2]
+END
