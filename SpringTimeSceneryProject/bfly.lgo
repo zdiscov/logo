@@ -1,0 +1,6 @@
+TO BFLY
+	pd
+	BFLY_BODY
+	pu rt 80 fd 8 lt 80 pd
+	BFLY_ANTENNA
+END
